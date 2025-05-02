@@ -1,5 +1,5 @@
 export declare function useBoundingRect(): {
-    ref: HTMLElement | null;
-    readonly rect: DOMRect | null;
+    ref: HTMLElement;
+    readonly rect: DOMRect;
     update: () => void;
 };

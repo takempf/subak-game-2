@@ -4,7 +4,7 @@ type SoundOn = SvelteComponent<{
 }, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {
-    $$bindings?: string | undefined;
+    $$bindings?: string;
 };
 declare const SoundOn: $$__sveltets_2_IsomorphicComponent<{
     [x: string]: never;

@@ -4,7 +4,7 @@ type ScoreBoard = SvelteComponent<{
 }, {
     [evt: string]: CustomEvent<any>;
 }, {}> & {
-    $$bindings?: string | undefined;
+    $$bindings?: string;
 };
 declare const ScoreBoard: $$__sveltets_2_IsomorphicComponent<{
     [x: string]: never;
